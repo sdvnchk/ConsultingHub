@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional Consulting Services">
+  <meta name="title" content="ConsultingHub">
+  <title>ConsultingHub</title>
+
+  <!-- Local CSS Files -->
+  <link rel="stylesheet" href="static/css/bootstrap_custom.css">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+</head>
+
+<!-- Enable ScrollSpy by adding data-bs-spy="scroll" and data-bs-target -->
+
+<body class="bg-dark" data-bs-spy="scroll" data-bs-target="#navbarNav" tabindex="0">
+
+  <!-- Modals for Team Members -->
+  <!-- Modal for Sarah Johnson -->
+  <div class="modal fade" id="teamMember1" tabindex="-1" aria-labelledby="teamMember1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="teamMember1Label">Sarah Johnson - Chief Executive Officer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Sarah has led our firm for over 15 years, developing strategies for businesses across multiple
+            industries. With a focus on corporate strategy and leadership, she has transformed startups into industry
+            leaders and helped large corporations achieve sustainable growth.</p>
+          <p>She holds an MBA from Harvard Business School and frequently speaks at international conferences on
+            business strategy and leadership.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Michael Lee -->
+  <div class="modal fade" id="teamMember2" tabindex="-1" aria-labelledby="teamMember2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="teamMember2Label">Michael Lee - Head of Operations</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Michael is an expert in optimizing business processes and integrating advanced technologies into
+            everyday operations. His work has led to significant improvements in efficiency and cost savings for our
+            clients. He has implemented technological solutions for over 50 companies globally.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Emily Davis -->
+  <div class="modal fade" id="teamMember3" tabindex="-1" aria-labelledby="teamMember3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="teamMember3Label">Emily Davis - Financial Analyst</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Emily has been instrumental in shaping the financial future of our clients. Her experience spans
+            corporate finance, risk management, and investment advisory. She has worked with businesses in
+            technology, manufacturing, and retail, helping them build strong financial foundations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for James Smith -->
+  <div class="modal fade" id="teamMember4" tabindex="-1" aria-labelledby="teamMember4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="teamMember4Label">James Smith - Business Strategist</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>James has extensive experience in market analysis and strategy development. His keen insights into
+            emerging market trends and competitive dynamics have helped businesses position themselves effectively
+            in the marketplace. He has worked with both startups and Fortune 500 companies.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header class="container-fluid bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Brand Name -->
+        <a class="navbar-brand" href="#hero">ConsultingHub</a>
+
+        <!-- Burger Menu for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="vh-100 d-flex justify-content-center align-items-center text-center bg-primary text-white">
+    <div class="container">
+      <!-- Main heading -->
+      <h1 class="display-4">Empowering Your Business</h1>
+      <!-- Supporting text -->
+      <p class="lead">We provide top-notch consulting services to help your business grow and succeed in today's
+        competitive market. Our team of experts is dedicated to creating tailored solutions to meet your business needs.
+      </p>
+      <!-- Call to action -->
+      <a href="#about" class="btn btn-light mt-4">Our Services</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5 text-center fade-in-section text-white">
+    <h2>About Us</h2>
+    <p>ConsultingHub is a professional consulting firm with over a decade of experience helping businesses achieve
+      unprecedented success. We specialize in business strategy, operations optimization, and financial planning. Our
+      team of experts works closely with clients to understand their unique challenges and craft customized solutions
+      that drive results.</p>
+
+    <!-- Accordion for more details -->
+    <div class="accordion" id="aboutAccordion">
+      <!-- Accordion Item 1: Mission and Vision -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Our Mission and Vision
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#aboutAccordion">
+          <div class="accordion-body">
+            <p>Our mission is to empower businesses to achieve their full potential through expert consulting services.
+              We envision a world where businesses of all sizes can leverage the power of strategy, technology, and
+              innovation to achieve sustainable growth.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Item 2: Approach to Consulting -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Our Approach to Consulting
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#aboutAccordion">
+          <div class="accordion-body">
+            <p>We take a client-centered approach to consulting, working closely with each business to understand its
+              unique challenges, opportunities, and goals. Our experts conduct thorough assessments, analyze data, and
+              create actionable plans tailored to each client's specific needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="container py-5 text-center fade-in-section text-white">
+    <h2>Our Services</h2>
+    <p>We offer a wide range of consulting services to help your business thrive. From strategic planning to operational
+      optimization, we have the expertise to guide you towards success.</p>
+
+    <!-- List for Services Breakdown -->
+    <ul class="list-group text-start">
+
+      <!-- Business Strategy -->
+      <li class="list-group-item bg-light">
+        <h3>Business Strategy</h3>
+        <p>Business strategy is at the core of every successful organization. Our consultants work with you to develop
+          long-term strategies that align with your goals. We focus on competitive analysis, market positioning, and
+          growth opportunities to ensure that your business is well-positioned for future success.</p>
+      </li>
+
+      <!-- Operations Optimization -->
+      <li class="list-group-item bg-light mt-3">
+        <h3>Operations Optimization</h3>
+        <p>Operations optimization helps your business run more efficiently, reduce costs, and increase profitability.
+          We specialize in helping businesses of all sizes implement technology-driven solutions to maximize operational
+          efficiency. Our services focus on streamlining workflows and identifying key areas for improvement.</p>
+      </li>
+
+      <!-- Financial Planning -->
+      <li class="list-group-item bg-light mt-3">
+        <h3>Financial Planning</h3>
+        <p>Our financial planning services help businesses manage their finances, allocate resources efficiently, and
+          mitigate risks. We provide comprehensive financial assessments, budgeting advice, and long-term financial
+          strategies tailored to your specific needs, ensuring long-term stability and growth.</p>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="container py-5 text-center fade-in-section text-white">
+    <h2>Meet Our Team</h2>
+    <p>Our team consists of seasoned professionals with diverse backgrounds and expertise. We are passionate about
+      helping businesses thrive by leveraging our experience in various industries and areas of consulting.</p>
+
+    <!-- Team Members as Cards -->
+    <div class="row gy-4">
+      <!-- Sarah Johnson -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/img/team1.png" class="card-img-top" alt="Sarah Johnson">
+          <div class="card-body">
+            <h5 class="card-title">Sarah Johnson</h5>
+            <p class="card-text">Chief Executive Officer</p>
+            <!-- Modal Trigger for Sarah Johnson -->
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+              data-bs-target="#teamMember1">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Michael Lee -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/img/team2.png" class="card-img-top" alt="Michael Lee">
+          <div class="card-body">
+            <h5 class="card-title">Michael Lee</h5>
+            <p class="card-text">Head of Operations</p>
+            <!-- Modal Trigger for Michael Lee -->
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+              data-bs-target="#teamMember2">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Emily Davis -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/img/team3.png" class="card-img-top" alt="Emily Davis">
+          <div class="card-body">
+            <h5 class="card-title">Emily Davis</h5>
+            <p class="card-text">Financial Analyst</p>
+            <!-- Modal Trigger for Emily Davis -->
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+              data-bs-target="#teamMember3">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- James Smith -->
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/img/team4.png" class="card-img-top" alt="James Smith">
+          <div class="card-body">
+            <h5 class="card-title">James Smith</h5>
+            <p class="card-text">Business Strategist</p>
+            <!-- Modal Trigger for James Smith -->
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+              data-bs-target="#teamMember4">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="container py-5 text-center fade-in-section text-white">
+    <h2>What Our Clients Say</h2>
+    <div class="row gy-4">
+      <!-- Testimonial 1 -->
+      <div class="col-md-6">
+        <blockquote class="blockquote text-white">
+          <p>"ConsultingHub helped our company triple its revenue in just one year. Their business strategy insights
+            were invaluable. Their team was professional, responsive, and truly invested in our success."</p>
+          <figcaption class="blockquote-footer">Anna Wilson, CEO of Tech Solutions</figcaption>
+        </blockquote>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-6">
+        <blockquote class="blockquote text-white">
+          <p>"The team at ConsultingHub streamlined our operations, saving us both time and money. Their expertise in
+            process optimization made a significant impact on our efficiency. I highly recommend their services."</p>
+          <figcaption class="blockquote-footer">Mark Thompson, Founder of Green Market</figcaption>
+        </blockquote>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-md-6">
+        <blockquote class="blockquote text-white">
+          <p>"Their financial planning services have been a game-changer for our business. With their guidance, we've
+            managed to secure funding and plan for sustainable growth."</p>
+          <figcaption class="blockquote-footer">Lisa Chen, CFO of Bright Future Inc.</figcaption>
+        </blockquote>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="col-md-6">
+        <blockquote class="blockquote text-white">
+          <p>"Working with ConsultingHub was a pleasure. Their personalized approach and commitment to excellence set
+            them apart from other firms we've worked with."</p>
+          <figcaption class="blockquote-footer">David Brown, CEO of Apex Industries</figcaption>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5 text-center fade-in-section text-white">
+    <h2>Contact Us</h2>
+    <p>Feel free to visit our office in India for a consultation or reach us via email. We are located in the heart of
+      Bengaluru, Karnataka, and we look forward to assisting you with all your business consulting needs.</p>
+
+    <!-- Address and Contact Information -->
+    <p><strong>Address:</strong> <a href="https://maps.app.goo.gl/Ls8L544J7gUyTFV39">9 gbm eatate,byrappa garden,
+        ramchandrapura, India</a></p>
+    <p><strong>Email:</strong> <a href="mailto:info@consultinghub.in">info@consultinghub.in</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-light">
+    <p>© 2024 ConsultingHub. All Rights Reserved.</p>
+    <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-conditions.html">Terms and Conditions</a></p>
+  </footer>
+
+  <!-- Local JS Files -->
+  <script src="static/js/bootstrap.bundle.js"></script>
+  <script src="static/js/main.js"></script>
+</body>
+
+</html>
